@@ -46,15 +46,20 @@
                             </a>
                         </li>
                         <li>
-                            <a class="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education">
-                                <div class="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div>
-                            </a>
-                        </li>
-                        <li>
                             <a class="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects">
                                 <div class="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div>
                             </a>
+                        </li> 
+                        <li>
+                            <a class="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#achievements">
+                                <div class="text-sm text-white transition-colors duration-300 hover:text-pink-600">ACHIEVEMENTS</div>
+                            </a>
                         </li>
+                         <li>
+                            <a class="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education">
+                                <div class="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div>
+                            </a>
+                        </li> 
                     </ul>
                 </div>
             </nav>
@@ -217,25 +222,37 @@
                     </div>
                 </div>
             </section>
-            <div id="about" class="my-12 lg:my-16 relative">
-                <div class="hidden lg:flex flex-col items-center absolute top-16 -right-8">
-                    <span class="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">ABOUT ME</span>
-                    <span class="h-36 w-[2px] bg-[#1a1443]"></span>
-                </div>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-                    <div class="order-2 lg:order-1">
-                        <p class="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Who I am?</p>
-                        <p class="text-gray-200 text-sm lg:text-lg"> Hi, I'm Saniya Ahemad
-                          I’m a passionate and disciplined Computer Science Engineering student with a strong interest in AI, machine learning, and data science. I enjoy exploring new technologies, building real-world solutions, and constantly improving my coding skills. Alongside technical expertise, I bring strong organizational abilities and leadership experience from managing projects and events.
+           <div id="about" class="my-12 lg:my-16 relative">
+  <!-- Vertical ABOUT ME label on the side -->
+  <div class="hidden lg:flex flex-col items-center absolute top-16 -right-8">
+    <span class="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">ABOUT ME</span>
+    <span class="h-36 w-[2px] bg-[#1a1443]"></span>
+  </div>
 
-                          .</p>
-                    </div>
-                    <div class="flex justify-center order-1 lg:order-2">
-                        <img alt="Shrestha Singh" loading="lazy" width="280" height="280" decoding="async" data-nimg="1" class="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer" style="color:transparent" srcSet="/_next/image?url=%2Fprofile.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fprofile.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fprofile.png&amp;w=640&amp;q=75"/>
-                    </div>
-                </div>
-            </div>
-            
+  <!-- Grid container -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+    
+    <!-- Left side: About Me -->
+    <div>
+      <p class="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Who I am?</p>
+      <p class="text-gray-200 text-sm lg:text-lg">
+        Hi, I'm Saniya Ahemad. I’m a passionate and disciplined Computer Science Engineering student with a strong interest in AI, machine learning, and data science. I enjoy exploring new technologies, building real-world solutions, and constantly improving my coding skills. Alongside technical expertise, I bring strong organizational abilities and leadership experience from managing projects and events.
+      </p>
+    </div>
+
+    <div class="flex justify-center lg:justify-end">
+  <img 
+    src="/gif.gif" 
+    alt="Saniya Ahemad GIF"
+    style="width: 340px; height: 280px;" 
+    class="object-contain rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+  />
+</div>
+
+  
+  </div>   
+</div>
+
             <div id="skills" class="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
                 <div class="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
                 <div class="flex justify-center -translate-y-[1px]">
@@ -648,7 +665,7 @@
                                             <div class="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
                                             <div class="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
                                         </div>
-                                        <p class="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">AgroLeaf</p>
+                                        <p class="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">Mediwise</p>
                                     </div>
                                     <div class="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
                                         <code class="font-mono text-xs md:text-sm lg:text-base">
@@ -661,7 +678,7 @@
                                             <div>
                                                 <span class="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                                                 <span class="text-gray-400">&#x27;</span>
-                                                <span class="text-amber-300">AgroLeaf</span>
+                                                <span class="text-amber-300">Mediwise</span>
                                                 <span class="text-gray-400">&#x27;,</span>
                                             </div>
                                             <div class="ml-4 lg:ml-8 mr-2">
@@ -671,19 +688,21 @@
                                                 <span class="text-gray-400">&#x27;, &#x27;</span>
                                                 <span class="text-amber-300">Flask</span>
                                                 <span class="text-gray-400">&#x27;, &#x27;</span>
-                                                <span class="text-amber-300">CNN</span>
+                                                <span class="text-amber-300">Machine Learning</span>
+                                                <span class="text-gray-400">&#x27;, &#x27;</span>
+                                                <span class="text-amber-300">Leaflet.js</span>
                                                 <span class="text-gray-400">&#x27;, &#x27;</span>
                                                 <span class="text-amber-300">Javascript</span>
                                                 <span class="text-gray-400">],</span>
                                             </div>
                                             <div>
                                                 <span class="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-                                                <span class="text-orange-400"> AI Developer & Backend Engineer</span>
+                                                <span class="text-orange-400"> AI Developer & Frontend Engineer</span>
                                                 <span class="text-gray-400">,</span>
                                             </div>
                                             <div class="ml-4 lg:ml-8 mr-2">
                                                 <span class="text-white">Description:</span>
-                                                <span class="text-cyan-400">AgroLeaf is an AI-powered web application that detects plant leaf diseases using image classification with Convolutional Neural Networks (CNNs). Users can upload images of affected leaves, and the system instantly identifies the disease and provides recommendations for treatment.</span>
+                                                <span class="text-cyan-400">MediWise is an AI-powered healthcare web application where users enter symptoms to receive personalized recommendations including precautions, medication, diet, and workouts. Additionally, it helps users find nearby doctors on an interactive map using location-based services.</span>
                                                 <span class="text-gray-400">,</span>
                                             </div>
                                             <div>
@@ -966,7 +985,7 @@
               
             </div>
         </div>
-<!-- Certifications Section -->
+<!-- Certifications Section --> 
 
 
       <script src="/_next/static/chunks/webpack-6b34211fc4eafd45.js"></script>
