@@ -71,7 +71,6 @@ matplotlib==3.10.0
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 mediapipe==0.10.21
-ml_dtypes==0.5.1
 multidict==6.4.3
 namex==0.0.8
 nest-asyncio==1.6.0
